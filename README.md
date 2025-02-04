@@ -54,7 +54,7 @@ HAIPW/
 
 ### **Dependencies**
 
-This package requires **Python 3.12.3** and the following libraries:
+This package requires at least **Python 3.12.3** and the following libraries:
 
 ```txt
 numpy==2.2.2
@@ -76,7 +76,7 @@ accelerate==1.3.0
 #### Step 1: Create and Activate a Conda Environment
 
 ```bash
-conda create -n haipw_env python=3.12.3 -y
+conda create -n haipw_env python -y
 conda activate haipw_env
 ```
 #### Step 2: Install the Package (2 Options)
