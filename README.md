@@ -26,7 +26,7 @@ This repository contains the Python implementation of the **Hybrid Augmented Inv
 - **Integrates predictions from multiple foundation models (e.g. LLMs)** to improve statistical precision, leading to tighter confidence intervals.
 - **Combines the standard AIPW estimator with LLM-generated AIPW estimates**, ensuring that the asymptotic variance is as small as the most precise estimator.
 - **Maintains valid statistical inference** without requiring additional assumptions beyond those typically needed for standard estimation in randomized controlled trials (RCTs).
-- **Supports both open-source (e.g., LLaMA) and proprietary (e.g., GPT-4, Claude) models**, making it adaptable across different research settings.
+- **Supports both open-source (e.g. LLaMA) and proprietary (e.g. GPT-4, Claude) models**, making it adaptable across different research settings.
 
 <!-- For more details, see our [research paper](https://arxiv.org/abs/2412.06619). -->
 
