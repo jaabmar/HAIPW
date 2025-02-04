@@ -124,7 +124,7 @@ python run_experiment.py \
     --n_folds 30 \
     --alpha_ridge 1.0 \
     --study faheyS78 \
-    --model llama_small \
+    --model llama gpt4o claude_haiku \
     --n_seeds 1000
 ```
 
