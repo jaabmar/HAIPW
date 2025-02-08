@@ -1,6 +1,6 @@
 # Efficient Randomized Experiments Using Foundation Models
 
-<!-- [![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2412.06619-B31B1B.svg)](https://arxiv.org/abs/2412.06619) -->
+[![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2502.04262-B31B1B.svg)](https://arxiv.org/abs/2502.04262)
 [![Python 3.12.3](https://img.shields.io/badge/python-3.12.3-blue.svg)](https://python.org/downloads/release/python-3123/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Pytorch 2.6.0](https://img.shields.io/badge/pytorch-2.6.0-green.svg)](https://pytorch.org/)
@@ -12,7 +12,7 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
-<!-- * [Citation](#citation) -->
+- [Citation](#citation)
 
 ---
 
@@ -20,15 +20,16 @@
 
 ![HAIPW Diagram](diagram.jpg)
 
-This repository contains the Python implementation of the **Hybrid Augmented Inverse Probability Weighting (HAIPW)** estimator, a novel estimator for the **Average Treatment Effect (ATE)** introduced in the paper *"Efficient Randomized Experiments Using Foundation Models"*.
+This repository contains the Python implementation of the **Hybrid Augmented Inverse Probability Weighting (HAIPW)** estimator, designed to estimate the **Average Treatment Effect (ATE)** as introduced in the paper *"Efficient Randomized Experiments Using Foundation Models"*.
 
 ### Key Features of HAIPW:
-- **Integrates predictions from multiple foundation models (e.g. LLMs)** to improve statistical precision, leading to tighter confidence intervals.
-- **Combines the standard AIPW estimator with LLM-generated AIPW estimates**, ensuring that the asymptotic variance is as small as the most precise estimator.
-- **Maintains valid statistical inference** without requiring additional assumptions beyond those typically needed for standard estimation in randomized controlled trials (RCTs).
+- **Integrates predictions from multiple foundation models (e.g. LLMs) into the standard AIPW estimator to improve statistical precision**, leading to tighter confidence intervals.
+- **Ensures that the asymptotic variance is as small as the most precise estimator in the combination**; that is, if foundation model predictions are not informative, it performs as well as the standard AIPW estimator.
+- **Maintains valid statistical inference** even if the foundation model predictions are arbitrarily biased.
+- **Does not require additional assumptions** beyond those typically needed for standard estimation in randomized experiments.
 - **Supports both open-source (e.g. LLaMA) and proprietary (e.g. GPT-4, Claude) models**, making it adaptable across different research settings.
 
-<!-- For more details, see our [research paper](https://arxiv.org/abs/2412.06619). -->
+For more details, see our [research paper](https://arxiv.org/abs/2502.04262).
 
 ---
 
@@ -159,14 +160,14 @@ For questions or collaborations, feel free to reach out:
 - Piersilvio de Bartolomeis - [piersilvio.debartolomeis@inf.ethz.ch](mailto:piersilvio.debartolomeis@inf.ethz.ch)
 - Konstantin Donhauser - [konstantin.donhauser@ai.ethz.ch](mailto:konstantin.donhauser@ai.ethz.ch)
 
-<!-- ## Citation
+## Citation
 
 If you find this code useful, please consider citing our paper:
  ```
-@article{abadcopyright2024,
-      title={Copyright-Protected Language Generation via Adaptive Model Fusion}, 
-      author={Javier Abad and Konstantin Donhauser and Francesco Pinto and Fanny Yang},
-      year={2024},
-      journal={arXiv preprint arXiv:2412.06619},
+@article{debartolomeis2025efficient,
+      title={Efficient Randomized Experiments Using Foundation Models}, 
+      author={Piersilvio De Bartolomeis and Javier Abad and Guanbo Wang and Konstantin Donhauser and Raymond M. Duch and Fanny Yang and Issa J. Dahabreh},
+      year={2025},
+      journal={arXiv preprint arXiv:2502.04262},
 }
-``` -->
+```
