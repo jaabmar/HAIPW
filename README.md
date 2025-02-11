@@ -14,7 +14,6 @@
 - [Contact](#contact)
 - [Citation](#citation)
 
----
 
 ## Overview
 
@@ -31,7 +30,6 @@ This repository contains the Python implementation of the **Hybrid Augmented Inv
 
 For more details, see our [research paper](https://arxiv.org/abs/2502.04262).
 
----
 
 ## Contents
 
@@ -49,7 +47,6 @@ HAIPW/
 │── run_experiment.py                # Main script to run experiments
 ```
 
----
 
 ## Getting Started
 
@@ -95,7 +92,6 @@ conda activate haipw_env
    pip install git+https://github.com/jaabmar/HAIPW.git
    ```
 
----
 
 ## Usage
 
@@ -140,7 +136,6 @@ python run_experiment.py \
 - `--n_seeds`: Number of seeds for randomization
 - `--n_prompts`: Number of prompts (inference-time compute)
 
----
 
 ## Contributing
 
@@ -152,7 +147,6 @@ We welcome contributions to improve this project. Here's how you can contribute:
 4. Push to your branch (`git push origin feature-branch`)
 5. Open a Pull Request
 
----
 
 ## Contact
 
@@ -162,7 +156,6 @@ For questions or collaborations, feel free to reach out:
 - Piersilvio de Bartolomeis - [piersilvio.debartolomeis@inf.ethz.ch](mailto:piersilvio.debartolomeis@inf.ethz.ch)
 - Konstantin Donhauser - [konstantin.donhauser@ai.ethz.ch](mailto:konstantin.donhauser@ai.ethz.ch)
 
----
 
 ## Citation
 
