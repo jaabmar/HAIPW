@@ -140,6 +140,7 @@ python run_experiment.py \
 - `--n_seeds`: Number of seeds for randomization
 - `--n_prompts`: Number of prompts (inference-time compute)
 
+---
 
 ## Contributing
 
@@ -151,6 +152,7 @@ We welcome contributions to improve this project. Here's how you can contribute:
 4. Push to your branch (`git push origin feature-branch`)
 5. Open a Pull Request
 
+---
 
 ## Contact
 
@@ -159,6 +161,8 @@ For questions or collaborations, feel free to reach out:
 - Javier Abad Martinez - [javier.abadmartinez@ai.ethz.ch](mailto:javier.abadmartinez@ai.ethz.ch)
 - Piersilvio de Bartolomeis - [piersilvio.debartolomeis@inf.ethz.ch](mailto:piersilvio.debartolomeis@inf.ethz.ch)
 - Konstantin Donhauser - [konstantin.donhauser@ai.ethz.ch](mailto:konstantin.donhauser@ai.ethz.ch)
+
+---
 
 ## Citation
 
