@@ -19,7 +19,7 @@
 
 ![HAIPW Diagram](diagram.jpg)
 
-This repository contains the Python implementation of the **Hybrid Augmented Inverse Probability Weighting (HAIPW)** estimator, designed to estimate the **Average Treatment Effect (ATE)** as introduced in the paper *"Efficient Randomized Experiments Using Foundation Models"*.
+This repository contains the Python implementation of the **Hybrid Augmented Inverse Probability Weighting (HAIPW)** estimator, designed to estimate the **Average Treatment Effect (ATE)** as introduced in the **NeurIPS 2025** paper *"Efficient Randomized Experiments Using Foundation Models"*.
 
 ### Key Features of HAIPW:
 - **Integrates predictions from multiple foundation models (e.g. LLMs) into the standard AIPW estimator to improve statistical precision**, leading to tighter confidence intervals.
@@ -165,6 +165,6 @@ If you find this code useful, please consider citing our paper:
       title={Efficient Randomized Experiments Using Foundation Models}, 
       author={Piersilvio De Bartolomeis and Javier Abad and Guanbo Wang and Konstantin Donhauser and Raymond M. Duch and Fanny Yang and Issa J. Dahabreh},
       year={2025},
-      journal={arXiv preprint arXiv:2502.04262},
+      journal={The Thirty-Ninth Annual Conference on Neural Information Processing Systems},
 }
 ```
